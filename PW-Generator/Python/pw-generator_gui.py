@@ -22,10 +22,10 @@ def generierenFunktion():
     if selection == (0,):
         alphabet = string.digits
         pie = ''.join(secrets.choice(alphabet) for i in range(int(spinBox.get())))
-        for i in range(5):
+        for i in range(1):
             root.update_idletasks()
-            pb1['value'] += 20
-            time.sleep(1)
+            pb1['value'] += 100
+            time.sleep(0.4)
         Label(root, text = pie, bg='#F0F8FF', font=('arial', 12, 'normal')).place(x=100, y=218)
         def btnClickFunction():
             file = filedialog.asksaveasfilename(
@@ -39,10 +39,10 @@ def generierenFunktion():
     if selection == (1,):
         alphabet = string.ascii_letters
         password = ''.join(secrets.choice(alphabet) for i in range(int(spinBox.get())))
-        for i in range(5):
+        for i in range(1):
             root.update_idletasks()
-            pb1['value'] += 20
-            time.sleep(1)
+            pb1['value'] += 100
+            time.sleep(0.4)
         Label(root, text = password, bg='#F0F8FF', font=('arial', 12, 'normal')).place(x=100, y=218)
         def btnClickFunction():
             file = filedialog.asksaveasfilename(
@@ -56,10 +56,10 @@ def generierenFunktion():
     if selection == (2,):
         alphabet = string.ascii_letters + string.digits
         passwordMixed = ''.join(secrets.choice(alphabet) for i in range(int(spinBox.get())))
-        for i in range(5):
+        for i in range(1):
             root.update_idletasks()
-            pb1['value'] += 20
-            time.sleep(1)
+            pb1['value'] += 100
+            time.sleep(0.4)
         Label(root, text = passwordMixed, bg='#F0F8FF', font=('arial', 12, 'normal')).place(x=100, y=218)
         def btnClickFunction():
             file = filedialog.asksaveasfilename(
@@ -73,10 +73,10 @@ def generierenFunktion():
     if selection == (3,):
         alphabet = list(string.ascii_letters + string.digits + "!@#$%^&*()")
         passwordMixedS = ''.join(secrets.choice(alphabet) for i in range(int(spinBox.get())))
-        for i in range(5):
+        for i in range(1):
             root.update_idletasks()
-            pb1['value'] += 20
-            time.sleep(1)
+            pb1['value'] += 100
+            time.sleep(0.4)
         Label(root, text = passwordMixedS, bg='#F0F8FF', font=('arial', 12, 'normal')).place(x=100, y=218)
         def btnClickFunction():
             file = filedialog.asksaveasfilename(
@@ -89,10 +89,10 @@ def generierenFunktion():
 
     if selection == (4,):
         zeichenkette = uuid.uuid4()
-        for i in range(5):
+        for i in range(1):
             root.update_idletasks()
-            pb1['value'] += 20
-            time.sleep(1)
+            pb1['value'] += 100
+            time.sleep(0.4)
         Label(root, text = zeichenkette, bg='#F0F8FF', font=('arial', 12, 'normal')).place(x=100, y=218)
         def btnClickFunction():
             file = filedialog.asksaveasfilename(
