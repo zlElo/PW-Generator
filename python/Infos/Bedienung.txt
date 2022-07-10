@@ -1,0 +1,43 @@
+Deutsch:
+
+Starten:
+- zum Starten des Programms einfach entweder die .exe ohne Installation starten oder das Programm mit dem Setup installieren
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Benutzung:
+- zum Generieren eines Passwortes in der obersten Liste auswählen, welches generiert werden soll
+- unter der Liste ist ein Feld zu finden, wo die länge des Passwortes angegeben werden muss (bei allen außer Zeichenkette möglich,
+da dort eine Zeichenkette mit uuid erstellt wird)
+- nun auf "Generieren" drücken, um ein Passwort zu generieren
+- anschließend wird angeboten das Passwort zu Speichern, wenn Sie dies wollen klicken Sie auf "Speichern" (nun nur noch Pfad auswählen und anschließend ist
+das Passwort an dieser Stelle gespeichert)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Das Programm "PW-Generator" wurde erstellt von zlElo
+GitHub: https://www.github.com/zlElo
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+English (US):
+
+Start:
+- to start the program just run the .exe without installing it or install the program with the setup
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Usage:
+- to generate a password in the top list, select which one is to be generated
+- under the list there is a field where the length of the password has to be specified (possible for all but string,
+because a string with uuid is created there) 
+- now click on “Generate” to generate a password
+- then the password is offered to Save, if you want to, click on “Save” (now just select path and then
+the password saved at this location) 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+The program “PW Generator” was created by zlElo
+GitHub: https://www.github.com/zlElo
