@@ -1,1 +1,0 @@
-An .exe or setup file is for the customtkinter Version at this moment not available! 
