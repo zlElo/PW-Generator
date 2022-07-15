@@ -1,6 +1,5 @@
 from cProfile import label
-from logging import root
-from tkinter import * 
+from tkinter import *
 from tkinter.filedialog import asksaveasfile
 from tkinter import filedialog
 import string
@@ -28,6 +27,7 @@ def generierenFunktion():
             fob.close()
             app.destroy()
         customtkinter.CTkButton(master=app, text='Speichern', bg='#F0F8FF', command=btnClickFunction).place(x=50, y=80)
+        app.iconbitmap('iconpw.ico')
         app.mainloop()
 
     if selection == ('Buchstabenpasswort'):
@@ -46,6 +46,7 @@ def generierenFunktion():
             fob.close()
             app.destroy()
         customtkinter.CTkButton(master=app, text='Speichern', bg='#F0F8FF', command=btnClickFunction).place(x=50, y=80)
+        app.iconbitmap('iconpw.ico')
         app.mainloop()
 
     if selection == ('Zahlen-und Buchstabenpasswort'):
@@ -64,6 +65,7 @@ def generierenFunktion():
             fob.close()
             app.destroy()
         customtkinter.CTkButton(master=app, text='Speichern', bg='#F0F8FF', command=btnClickFunction).place(x=50, y=80)
+        app.iconbitmap('iconpw.ico')
         app.mainloop()
 
     if selection == ('Zahlen- und Buchstabenpasswort inkl. Sonderzeichen'):
@@ -82,6 +84,7 @@ def generierenFunktion():
             fob.close()
             app.destroy()
         customtkinter.CTkButton(master=app, text='Speichern', bg='#F0F8FF', command=btnClickFunction).place(x=50, y=80)
+        app.iconbitmap('iconpw.ico')
         app.mainloop()
 
     if selection == ('Zufällige Zeichenkette'):
@@ -99,6 +102,7 @@ def generierenFunktion():
             fob.close()
             app.destroy()
         customtkinter.CTkButton(master=app, text='Speichern', bg='#F0F8FF', command=btnClickFunction).place(x=50, y=80)
+        app.iconbitmap('iconpw.ico')
         app.mainloop()
 
 
@@ -110,6 +114,17 @@ def getSelectedComboItem():
 
 def getSelectedSpinBoxValue():
 	return tInput.get()
+
+def about():
+    app = customtkinter.CTk()  # create CTk window like you do with the Tk window
+    app.title("PW-Generator_About")
+    app.geometry("440x120")
+    customtkinter.CTkLabel(master=app, text = 'PW-Generator was created by zlELo.', bg='#F0F8FF').place(x=10, y=10)
+    customtkinter.CTkLabel(master=app, text = 'Version: Customtkinter version 1.02', bg='#F0F8FF').place(x=10, y=30)
+    customtkinter.CTkLabel(master=app, text = 'When updates are available you can find they on GitHub. Here is the link:', bg='#F0F8FF').place(x=10, y=60)
+    customtkinter.CTkLabel(master=app, text = 'github.com/zlELo/PW-Generator', bg='#F0F8FF').place(x=10, y=80)
+    app.iconbitmap('iconpw.ico')
+    app.mainloop()
 
 customtkinter.set_appearance_mode("System")
 customtkinter.set_default_color_theme("blue")
@@ -133,6 +148,8 @@ comboOneTwoPunch= customtkinter.CTkComboBox(master=app, values=['Zahlenpasswort'
 comboOneTwoPunch.place(x=18, y=16)
 comboOneTwoPunch.grab_current
 
+#This is the section of code which creates the about me window
+abouMeBtn = customtkinter.CTkButton(master=app, text='About', command=about, width=10).place(x=642, y=135)
 
 # This is the section of code which creates a button
 generierenButton = customtkinter.CTkButton(master=app, text='Generieren', command=generierenFunktion).place(x=20, y=120)
