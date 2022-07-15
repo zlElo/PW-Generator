@@ -4,7 +4,7 @@
 DE:
 
 PW-Generator ist ein GUI basierter Passwort-Generator der verschiedenste Funktionen bietet, um ein Passwort zu generieren. Zurzeit sind 2 Versionen verfuegbar. Das ist zum einen die "Customtkinter Version", die mit
-einem moderneren Design daherkommt. Die zweite Version ist die "only tkinter version", Sie hat die normalen Tkinter Sachen (also Buttons etc.). 
+einem moderneren Design daherkommt. Die zweite Version ist die "only tkinter version". Sie hat die normalen Tkinter Sachen (also Buttons etc.). 
 
 
 ENG:
