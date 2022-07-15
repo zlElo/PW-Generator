@@ -1,0 +1,2 @@
+I don't work more for the customtkinter version, i work only more for the only tkinter version. Use the only tkinter version if you will have the newest 
+Version with fewer bugs!
