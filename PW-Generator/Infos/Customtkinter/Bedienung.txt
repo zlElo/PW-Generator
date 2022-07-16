@@ -1,0 +1,41 @@
+Deutsch:
+
+Starten:
+- zum Starten des Programms einfach entweder die .exe ohne Installation starten oder das Programm mit dem Setup installieren
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Benutzung:
+- zum Generieren eines Passwortes in der obersten Leiste auswählen, welches generiert werden soll
+- unter der Leiste ist ein Feld zu finden, wo die länge des Passwortes angegeben werden muss (bei allen außer Zeichenkette möglich,
+da dort eine Zeichenkette mit uuid erstellt wird)
+- nun auf "Generieren" drücken, um ein Passwort zu generieren
+- anschließend öffnet sich ein neues Fenster wo das Passwort einmal angezeigt wird und man dieses gleich abspeichern kann 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Das Programm "PW-Generator" wurde erstellt von zlElo
+GitHub: https://www.github.com/zlElo
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+English (US):
+
+Start:
+- to start the program just run the .exe without installing it or install the program with the setup
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+Usage:
+- to generate a password in the top bar, select which one is to be generated
+- under the bar there is a field where the length of the password has to be specified (possible for all but string,
+because a string with uuid is created there) 
+- now click on “Generate” to generate a password
+- then come a new window on where is the password. You can save the password there as a .txt file
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+The program “PW Generator” was created by zlElo
+GitHub: https://www.github.com/zlElo
