@@ -1,3 +1,5 @@
+[![Github All Releases](https://img.shields.io/github/downloads/zlElo/PW-Generator/total.svg)]()
+
 # PW-Generator
  A simple GUI based Password-Generator
 
