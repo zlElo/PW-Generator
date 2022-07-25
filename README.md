@@ -1,4 +1,5 @@
 [![Github All Releases](https://img.shields.io/github/downloads/zlElo/PW-Generator/total.svg)]()
+(https://visitor-badge.laobi.icu/badge?page_id=zlElo.PW-Generator&title=Visitor )
 
 # PW-Generator
  A simple GUI based Password-Generator
