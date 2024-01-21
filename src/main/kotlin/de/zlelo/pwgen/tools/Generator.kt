@@ -10,6 +10,12 @@ class Generator {
             val stringBuilder = StringBuilder()
             val pw = StringBuilder()
 
+            // check if all false
+            if (listOf(lettersVal, numberVal, specialVal).all { !it }) {
+                return "Please select characters!"
+            }
+
+            // append all symbols, numbers and letters
             if (lettersVal) {
                 stringBuilder.append(LETTERS)
             }
